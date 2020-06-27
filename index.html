@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Code Quiz</title>
+        <link rel="stylesheet" href="./assets/css/styles.css">
+    </head> 
+    <body>
+        <!-- header start -->
+        <header class="high-scores">
+            <h2 class="high-score-text">
+                <!-- <a href="highscore.html page url">view highscores</a> -->
+                <a href="./index.html">View HighScores</a>
+            </h2>
+            <!-- Nav start -->
+            <nav>
+                <p class="total-score-text">
+                    total score ➤:
+                </p>
+                <div class="score-number-text" id="score-number-text">
+                    <!-- dynamically generated text here...in a <div> inside this one? and put the score number there maybe -->
+                    123123
+                </div>
+            </nav>
+            <!-- Nav end -->
+        </header>
+        <!-- header end -->
+        <!-- quiz box section start -->
+        <section class="quiz-box-area" id="quiz-box-area">
+            <div class="quiz-question-area">
+                changing text here. will dynamically generate the new questions inside this div parent</br>
+                or just generate a new html page with each question. and different buttons for each page
+            </div>
+            <div class="answer-buttons-area" id="answer-buttons-area">
+               <button class="button" id="submit-answer1" type="submit">
+               <!-- dynamically generate answer choice here in its own element -->
+                <p class="button-text" id="button-text1">
+                    test button 1
+                </p>
+               </button>
+               <button class="button" id="submit-answer2" type="submit">
+                <!-- dynamically generate answer choice here in its own element -->
+                <p class="button-text" id="button-text2">
+                    test button 2
+                </p>
+               </button>
+               <button class="button" id="submit-answer3" type="submit">
+                <!-- dynamically generate answer choice here in its own element -->
+                <p class="button-text" id="button-text3">
+                    test button 3
+                </p>
+               </button>
+               <button class="button" id="submit-answer4" type="submit">
+                <!-- dynamically generate answer choice here in its own element -->
+                <p class="button-text" id="button-text3">
+                    test button 4
+                </p>
+               </button>
+
+            </div>
+            <div class="answer-feedback-text-area">
+                <div class="feeback-text">
+                    <p>
+                        wrong answer
+                    </p>
+                    <!-- dynamically generate here -->
+                </div>
+            </div>
+        </section>
+        <!-- quiz box section end -->
+        
+        <script src="./assets/js/logic.js"></script>
+    </body>
+</html>
