@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Code Quiz</title>
+        <link rel="stylesheet" href="./assets/css/styles.css">
+    </head> 
+    <body>
+        <!-- header start -->
+        <header class="high-scores">
+            <h2 class="high-score-text">
+                <!-- <a href="highscore.html page url">view highscores</a> -->
+                <a class="page-link" href="./index.html">---Quiz Home Page---</a>
+            </h2>
+            <!-- Nav start -->
+            <nav>
+                <p class="time-remaining-text">
+                    time remaining ➤:
+                </p>
+                <div class="time-remaining-number" id="time-remaining-number">
+                    <div>0</div>
+                </div>
+            </nav>
+            <!-- Nav end -->
+        </header>
+        <!-- header end -->
+        <!-- quiz box section start -->
+        <section class="quiz-box-area" id="quiz-box-area">
+            <div class="quiz-question-area">
+                <h2 class="start-game-text" id="start-game-text">
+                    High Scores!!
+                </h2>
+            </div>
+            <section class="quiz-box-area" id="quiz-box-area">
+                <ul class="high-score-list" id="list-container">
+                    <!-- <li class="high-score-text" id="high-score-text"> 
+                        <div id="score-name">
+                            user types name into prompt 
+                       </div>
+                       <div id ="score-number">
+                            score that is added up from answers correct 
+                       </div>
+                    </li> -->
+                </ul>
+            </section>
+        </section>
+        <!-- quiz box section end -->
+       <script src="assets/js/highscores.js"></script>
+        <script src="./assets/js/logic.js"></script>
+    </body>
+</html>

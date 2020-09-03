@@ -36,7 +36,7 @@ header nav {
     flex: 2;
     width: 33%;
     /*
-    background-color: lightgray;
+    background-color: lightblue;
     */
     /*
     text-align: right;
@@ -64,7 +64,7 @@ header nav .time-remaining-number {
     width: 33%;
     margin-left: 10px;
     margin-right: 50px;
-    color: rgb(255, 0, 119);
+    color: red;
     /*
     background-color: pink;
     */
@@ -121,11 +121,64 @@ section {
     
 }
 
+#answer-button-text1:hover{
+    background-color: mediumorchid;
+}
+#answer-button-text2:hover{
+    background-color: mediumorchid;
+}
+#answer-button-text3:hover{
+    background-color: mediumorchid;
+}
+#answer-button-text4:hover{
+    background-color: mediumorchid;
+}
+#answer-button-text5:hover{
+    background-color: mediumorchid;
+}
+#answer-button-text6:hover{
+    background-color: mediumorchid;
+}
+#answer-button-text7:hover{
+    background-color: mediumorchid;
+}
+#answer-button-text8:hover{
+    background-color: mediumorchid;
+}
+#answer-button-text9:hover{
+    background-color: mediumorchid;
+}
+#answer-button-text10:hover{
+    background-color: mediumorchid;
+}
+#answer-button-text11:hover{
+    background-color: mediumorchid;
+}
+#answer-button-text12:hover{
+    background-color: mediumorchid;
+}
+#answer-button-text13:hover{
+    background-color: mediumorchid;
+}
+#answer-button-text14:hover{
+    background-color: mediumorchid;
+}
+#answer-button-text15:hover{
+    background-color: mediumorchid;
+}
+#answer-button-text16:hover{
+    background-color: mediumorchid;
+}
+
 .answer-buttons-area button{
     margin: 10px 33% 10px 33%;
-    background-color: rgb(55, 0, 128);
+    background-color: purple;
     color: white;
     font-size: 20px;
+}
+
+.start-button:hover {
+    background-color: mediumorchid;
 }
 
 .start-button .button-text .text-link{
@@ -138,6 +191,11 @@ section {
     text-decoration: none;
     color: white;
     text-align: center;
+}
+
+.quiz-page-link{
+    text-decoration: none;
+    display: hidden;
 }
 /* quiz question area end */
 
